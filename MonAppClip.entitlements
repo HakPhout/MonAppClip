@@ -2,9 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
 	<key>com.apple.developer.associated-domains</key>
 	<array>
+<<<<<<<< HEAD:MonAppClip.entitlements
 		<string>appclips:H2H.fr</string>
+========
+		<string>applinks:happy2helpapp.com</string>
+>>>>>>>> 40b5033 (Backup avant migration):MonAppClip/MonAppClip.entitlements
 	</array>
 	<key>com.apple.developer.in-app-payments</key>
 	<array/>
@@ -12,5 +17,13 @@
 	<array>
 		<string>$(AppIdentifierPrefix)com.H2H.MonApp</string>
 	</array>
+=======
+    <key>com.apple.developer.on-demand-install-capable</key>
+    <true/>
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <string>applinks:hakthavy.github.io</string>
+    </array>
+>>>>>>> 40b5033 (Backup avant migration)
 </dict>
 </plist>
